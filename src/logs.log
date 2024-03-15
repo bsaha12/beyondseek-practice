@@ -1,0 +1,48 @@
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3Vyc2UiOiJuc2QxMDQiLCJpYXQiOjE3MDQzNzc1MTUsImV4cCI6MTcwNDM3NzU3NX0.HWqmS6qjxJx-yTwNwO53OMXamSZX6CBA43G2rIPHw6s; cho=Kim; Greet=Hello',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NWVlZDM4OWJiYjk2NzgxNDVlNzNhODEiLCJpYXQiOjE3MTAxNTM1MjZ9.Ukvhsa5CGt8w4ZKeJWWKF1lCa8cRhB8wRH_jaRKQi6I',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 2
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'HTTP GET / '
+}
+{
+  meta: {
+    req: {
+      url: '/todos/test',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3Vyc2UiOiJuc2QxMDQiLCJpYXQiOjE3MDQzNzc1MTUsImV4cCI6MTcwNDM3NzU3NX0.HWqmS6qjxJx-yTwNwO53OMXamSZX6CBA43G2rIPHw6s; cho=Kim; Greet=Hello',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NWVlZDM4OWJiYjk2NzgxNDVlNzNhODEiLCJpYXQiOjE3MTAxNTM1MjZ9.Ukvhsa5CGt8w4ZKeJWWKF1lCa8cRhB8wRH_jaRKQi6I',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/todos/test',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 1
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'HTTP GET /todos/test '
+}

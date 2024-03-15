@@ -24,9 +24,9 @@ app.get("/", (req, res) => {
 app.use("/auth/", userRouter);
 app.use("/todos/", todoRouter);
 
-app.listen(8000, async () => {
+app.listen(8080, async () => {
   // await mongoose.connect(process.env.MONGO_URI);
-  console.log("Server running on port 8000");
+  console.log("Server running on port 8080");
 });
 
 module.exports = app;
