@@ -18,7 +18,7 @@ app.use(
 app.use(loggerMiddleware);
 
 app.get("/", (req, res) => {
-  res.status(500).send("Welcome to the Todo APP");
+  res.send("Welcome to the Todo APP");
 });
 
 app.use("/auth/", userRouter);
